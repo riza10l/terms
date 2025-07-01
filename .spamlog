@@ -2,3 +2,4 @@
 [2025-06-30 11:37:02] fix(ui): correct z-index ordering
 [2025-07-01 09:53:10] fix(engine): correct timer precision
 [2025-07-01 10:46:43] chore: clean up dead code
+[2025-07-02 04:19:50] feat(theme): add nord color scheme
