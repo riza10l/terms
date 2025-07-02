@@ -3,3 +3,4 @@
 [2025-07-01 09:53:10] fix(engine): correct timer precision
 [2025-07-01 10:46:43] chore: clean up dead code
 [2025-07-02 04:19:50] feat(theme): add nord color scheme
+[2025-07-03 03:26:20] feat(game): add multiplayer support
