@@ -6,3 +6,4 @@
 [2025-07-03 03:26:20] feat(game): add multiplayer support
 [2025-07-03 12:22:48] docs: update changelog
 [2025-07-04 06:07:01] feat(engine): implement game loop scheduler
+[2025-07-05 01:42:33] style: fix eslint warnings
