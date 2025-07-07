@@ -10,3 +10,4 @@
 [2025-07-05 08:21:27] fix(engine): handle null state gracefully
 [2025-07-06 02:32:33] feat(renderer): add unicode rendering
 [2025-07-06 05:32:30] refactor(renderer): optimize paint calls
+[2025-07-07 12:31:59] feat(game): add new terminal game mode
