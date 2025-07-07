@@ -12,3 +12,4 @@
 [2025-07-06 05:32:30] refactor(renderer): optimize paint calls
 [2025-07-07 12:31:59] feat(game): add new terminal game mode
 [2025-07-07 01:13:12] test(core): add edge case tests
+[2025-07-08 04:25:27] feat(engine): implement game loop scheduler
