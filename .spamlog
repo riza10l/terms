@@ -15,3 +15,4 @@
 [2025-07-08 04:25:27] feat(engine): implement game loop scheduler
 [2025-07-08 13:10:31] test(core): improve coverage
 [2025-07-09 14:38:21] fix(shell): resolve prompt corruption
+[2025-07-09 04:09:06] feat(shell): add pipe support
