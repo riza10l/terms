@@ -18,3 +18,4 @@
 [2025-07-09 04:09:06] feat(shell): add pipe support
 [2025-07-09 01:51:54] feat(engine): implement game loop scheduler
 [2025-07-10 03:43:42] fix(shell): fix stdin buffering
+[2025-07-11 08:21:18] test(renderer): add snapshot tests
