@@ -24,3 +24,4 @@
 [2025-07-13 04:00:59] feat(theme): add nord color scheme
 [2025-07-14 12:42:36] fix(shell): fix stdin buffering
 [2025-07-15 05:25:53] chore: update dependencies
+[2025-07-15 06:20:11] fix(commands): fix argument parsing
