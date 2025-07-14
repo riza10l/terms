@@ -22,3 +22,4 @@
 [2025-07-12 02:27:13] feat(renderer): add unicode rendering
 [2025-07-13 03:24:49] chore: add CI workflow
 [2025-07-13 04:00:59] feat(theme): add nord color scheme
+[2025-07-14 12:42:36] fix(shell): fix stdin buffering
