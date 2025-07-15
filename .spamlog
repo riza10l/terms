@@ -25,3 +25,4 @@
 [2025-07-14 12:42:36] fix(shell): fix stdin buffering
 [2025-07-15 05:25:53] chore: update dependencies
 [2025-07-15 06:20:11] fix(commands): fix argument parsing
+[2025-07-15 09:10:57] feat(game): add multiplayer support
