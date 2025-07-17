@@ -29,3 +29,4 @@
 [2025-07-16 11:11:55] test(ui): add component tests
 [2025-07-17 05:18:54] style: format with prettier
 [2025-07-17 02:47:23] refactor(config): use schema pattern
+[2025-07-17 14:29:33] chore: bump version to 0.2.0
