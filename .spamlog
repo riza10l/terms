@@ -31,3 +31,4 @@
 [2025-07-17 02:47:23] refactor(config): use schema pattern
 [2025-07-17 14:29:33] chore: bump version to 0.2.0
 [2025-07-18 03:57:23] feat(ui): add progress bar widget
+[2025-07-19 08:28:00] test(core): improve coverage
