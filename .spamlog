@@ -37,3 +37,4 @@
 [2025-07-21 08:54:21] fix(renderer): resolve flickering issue
 [2025-07-22 13:54:37] feat(game): add new terminal game mode
 [2025-07-23 01:47:41] test(theme): add regression tests
+[2025-07-23 05:14:39] test(ui): add component tests
