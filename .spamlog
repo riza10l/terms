@@ -35,3 +35,4 @@
 [2025-07-19 12:03:16] docs: document game API
 [2025-07-20 08:12:59] feat(config): add JSON config loader
 [2025-07-21 08:54:21] fix(renderer): resolve flickering issue
+[2025-07-22 13:54:37] feat(game): add new terminal game mode
