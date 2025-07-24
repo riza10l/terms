@@ -39,3 +39,4 @@
 [2025-07-23 01:47:41] test(theme): add regression tests
 [2025-07-23 05:14:39] test(ui): add component tests
 [2025-07-24 11:17:53] docs: add setup guide
+[2025-07-25 03:54:48] style: add missing semicolons
