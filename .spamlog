@@ -41,3 +41,4 @@
 [2025-07-24 11:17:53] docs: add setup guide
 [2025-07-25 03:54:48] style: add missing semicolons
 [2025-07-25 02:11:59] feat(game): add power-ups and items
+[2025-07-26 13:55:31] refactor(renderer): optimize paint calls
