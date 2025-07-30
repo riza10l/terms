@@ -50,3 +50,4 @@
 [2025-07-29 11:07:46] feat(game): add multiplayer support
 [2025-07-29 03:54:38] fix(engine): fix race condition
 [2025-07-30 03:14:21] test(game): add unit tests for scoring
+[2025-07-31 03:15:01] docs: add setup guide
