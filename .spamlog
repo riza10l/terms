@@ -54,3 +54,4 @@
 [2025-07-31 03:27:12] feat(engine): create component system
 [2025-08-01 06:03:45] style: sort imports
 [2025-08-02 02:53:46] fix(ui): fix layout recalculation
+[2025-08-03 04:26:14] test(core): improve coverage
