@@ -56,3 +56,4 @@
 [2025-08-02 02:53:46] fix(ui): fix layout recalculation
 [2025-08-03 04:26:14] test(core): improve coverage
 [2025-08-03 01:09:45] fix(game): resolve collision detection
+[2025-08-04 12:20:27] refactor(engine): extract helper utils
