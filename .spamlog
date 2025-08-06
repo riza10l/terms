@@ -59,3 +59,4 @@
 [2025-08-04 12:20:27] refactor(engine): extract helper utils
 [2025-08-05 12:26:16] test(config): add validation tests
 [2025-08-06 01:03:04] chore: clean up dead code
+[2025-08-06 08:41:04] feat(shell): add pipe support
