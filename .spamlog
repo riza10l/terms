@@ -63,3 +63,4 @@
 [2025-08-06 08:19:48] fix(commands): fix argument parsing
 [2025-08-07 12:58:05] test(ui): add component tests
 [2025-08-08 14:54:33] docs: add architecture overview
+[2025-08-08 13:05:10] fix(theme): resolve theme inheritance
