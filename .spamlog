@@ -70,3 +70,4 @@
 [2025-08-10 14:45:55] test(game): add unit tests for scoring
 [2025-08-11 08:00:51] refactor(core): improve code structure
 [2025-08-12 02:05:22] feat(config): add schema validation
+[2025-08-12 07:08:15] test(shell): add integration tests
