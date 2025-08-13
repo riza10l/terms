@@ -72,3 +72,4 @@
 [2025-08-12 02:05:22] feat(config): add schema validation
 [2025-08-12 07:08:15] test(shell): add integration tests
 [2025-08-12 09:32:15] feat(shell): add command history
+[2025-08-13 09:05:42] fix(config): resolve parse errors
