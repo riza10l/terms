@@ -75,3 +75,4 @@
 [2025-08-13 09:05:42] fix(config): resolve parse errors
 [2025-08-13 10:44:03] feat(shell): add alias system
 [2025-08-14 03:41:08] fix(ui): fix layout recalculation
+[2025-08-14 10:02:52] refactor(theme): deduplicate styles
