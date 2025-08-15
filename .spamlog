@@ -77,3 +77,4 @@
 [2025-08-14 03:41:08] fix(ui): fix layout recalculation
 [2025-08-14 10:02:52] refactor(theme): deduplicate styles
 [2025-08-15 13:03:26] feat(renderer): add box-drawing support
+[2025-08-16 01:34:53] fix(engine): fix race condition
