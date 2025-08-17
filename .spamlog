@@ -80,3 +80,4 @@
 [2025-08-16 01:34:53] fix(engine): fix race condition
 [2025-08-17 01:58:31] style: fix eslint warnings
 [2025-08-17 02:46:57] perf(core): optimize hot paths
+[2025-08-18 03:20:51] feat(engine): add event-driven architecture
