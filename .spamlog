@@ -82,3 +82,4 @@
 [2025-08-17 02:46:57] perf(core): optimize hot paths
 [2025-08-18 03:20:51] feat(engine): add event-driven architecture
 [2025-08-19 14:59:42] feat(game): add new terminal game mode
+[2025-08-19 08:44:11] fix(renderer): resolve flickering issue
