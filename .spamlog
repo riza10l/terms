@@ -85,3 +85,4 @@
 [2025-08-19 08:44:11] fix(renderer): resolve flickering issue
 [2025-08-20 03:40:46] fix(config): resolve parse errors
 [2025-08-21 05:16:14] docs: update README with examples
+[2025-08-22 13:48:11] docs: add setup guide
