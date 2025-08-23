@@ -88,3 +88,4 @@
 [2025-08-22 13:48:11] docs: add setup guide
 [2025-08-22 11:09:33] refactor(config): use schema pattern
 [2025-08-22 08:04:46] style: sort imports
+[2025-08-23 13:54:07] feat(theme): implement theme switcher
