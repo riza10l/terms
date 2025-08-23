@@ -90,3 +90,4 @@
 [2025-08-22 08:04:46] style: sort imports
 [2025-08-23 13:54:07] feat(theme): implement theme switcher
 [2025-08-23 06:43:47] style: add missing semicolons
+[2025-08-23 13:19:15] fix(shell): fix stdin buffering
