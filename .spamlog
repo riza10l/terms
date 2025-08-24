@@ -92,3 +92,4 @@
 [2025-08-23 06:43:47] style: add missing semicolons
 [2025-08-23 13:19:15] fix(shell): fix stdin buffering
 [2025-08-24 07:52:22] fix(engine): resolve memory leak
+[2025-08-24 07:33:49] style: enforce consistent naming
