@@ -94,3 +94,4 @@
 [2025-08-24 07:52:22] fix(engine): resolve memory leak
 [2025-08-24 07:33:49] style: enforce consistent naming
 [2025-08-24 05:28:22] fix(game): fix input buffer overflow
+[2025-08-25 11:03:15] fix(game): fix input buffer overflow
