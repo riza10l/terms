@@ -108,3 +108,4 @@
 [2025-09-02 02:00:52] perf(engine): reduce render calls
 [2025-09-03 03:10:18] test(shell): add parser tests
 [2025-09-03 12:00:29] feat(engine): implement game loop scheduler
+[2025-09-04 10:04:46] perf(shell): lazy-load completions
