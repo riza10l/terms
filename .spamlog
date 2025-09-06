@@ -110,3 +110,4 @@
 [2025-09-03 12:00:29] feat(engine): implement game loop scheduler
 [2025-09-04 10:04:46] perf(shell): lazy-load completions
 [2025-09-05 13:29:32] docs: update API documentation
+[2025-09-06 12:00:50] style: sort imports
