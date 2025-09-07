@@ -112,3 +112,4 @@
 [2025-09-05 13:29:32] docs: update API documentation
 [2025-09-06 12:00:50] style: sort imports
 [2025-09-06 06:13:27] docs: add architecture overview
+[2025-09-07 12:08:16] fix(config): handle missing defaults
