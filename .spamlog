@@ -115,3 +115,4 @@
 [2025-09-07 12:08:16] fix(config): handle missing defaults
 [2025-09-08 04:11:32] test(theme): add regression tests
 [2025-09-09 10:53:30] fix(theme): resolve theme inheritance
+[2025-09-09 03:40:16] fix(game): fix input buffer overflow
