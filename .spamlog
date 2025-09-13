@@ -122,3 +122,4 @@
 [2025-09-12 07:23:48] feat(theme): implement theme switcher
 [2025-09-12 09:26:07] feat(ui): implement dialog system
 [2025-09-13 08:12:23] feat(ui): implement dialog system
+[2025-09-13 08:00:30] perf(engine): reduce render calls
