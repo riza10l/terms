@@ -124,3 +124,4 @@
 [2025-09-13 08:12:23] feat(ui): implement dialog system
 [2025-09-13 08:00:30] perf(engine): reduce render calls
 [2025-09-13 05:19:19] docs: add setup guide
+[2025-09-14 13:41:30] refactor(renderer): optimize paint calls
