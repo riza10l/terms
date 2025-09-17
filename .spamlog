@@ -129,3 +129,4 @@
 [2025-09-14 05:53:54] feat(config): add JSON config loader
 [2025-09-15 10:07:27] fix(engine): fix race condition
 [2025-09-16 09:42:48] perf(core): optimize hot paths
+[2025-09-17 08:26:04] feat(config): implement hot reload
