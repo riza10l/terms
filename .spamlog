@@ -133,3 +133,4 @@
 [2025-09-17 05:15:16] feat(config): add schema validation
 [2025-09-18 02:39:17] refactor(config): use schema pattern
 [2025-09-18 12:27:05] fix(shell): fix stdin buffering
+[2025-09-19 09:46:24] fix(theme): correct color mapping
