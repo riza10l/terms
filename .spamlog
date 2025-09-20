@@ -135,3 +135,4 @@
 [2025-09-18 12:27:05] fix(shell): fix stdin buffering
 [2025-09-19 09:46:24] fix(theme): correct color mapping
 [2025-09-20 01:53:47] refactor(renderer): optimize paint calls
+[2025-09-21 01:11:53] docs: update changelog
