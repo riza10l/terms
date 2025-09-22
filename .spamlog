@@ -139,3 +139,4 @@
 [2025-09-22 07:02:06] fix(ui): fix layout recalculation
 [2025-09-22 10:27:15] test(theme): add regression tests
 [2025-09-23 01:10:11] fix(config): resolve parse errors
+[2025-09-23 05:20:29] fix(engine): handle null state gracefully
