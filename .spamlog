@@ -142,3 +142,4 @@
 [2025-09-23 05:20:29] fix(engine): handle null state gracefully
 [2025-09-24 09:27:04] refactor(renderer): optimize paint calls
 [2025-09-25 02:12:12] feat(renderer): support 256 colors
+[2025-09-25 05:03:42] test(config): add validation tests
