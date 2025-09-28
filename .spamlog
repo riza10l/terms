@@ -146,3 +146,4 @@
 [2025-09-26 11:50:03] style: format with prettier
 [2025-09-27 13:29:03] style: remove trailing whitespace
 [2025-09-28 06:33:55] fix(config): resolve parse errors
+[2025-09-29 05:26:23] feat(commands): add new CLI commands
