@@ -149,3 +149,4 @@
 [2025-09-29 05:26:23] feat(commands): add new CLI commands
 [2025-09-29 12:34:04] docs: update README with examples
 [2025-09-30 14:17:37] perf(renderer): cache computed styles
+[2025-09-30 05:57:34] refactor(renderer): simplify draw loop
