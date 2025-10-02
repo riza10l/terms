@@ -152,3 +152,4 @@
 [2025-09-30 05:57:34] refactor(renderer): simplify draw loop
 [2025-09-30 12:17:00] chore: bump version to 0.2.0
 [2025-10-01 09:15:15] feat(ui): create menu component
+[2025-10-02 07:39:45] docs: add theme creation guide
