@@ -157,3 +157,4 @@
 [2025-10-03 03:50:56] feat(renderer): add smooth animations
 [2025-10-03 09:48:11] refactor(config): use schema pattern
 [2025-10-04 13:28:58] refactor(theme): deduplicate styles
+[2025-10-05 08:26:28] refactor(core): improve code structure
