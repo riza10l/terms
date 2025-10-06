@@ -160,3 +160,4 @@
 [2025-10-05 08:26:28] refactor(core): improve code structure
 [2025-10-06 11:09:57] feat(commands): implement plugin system
 [2025-10-07 02:49:11] feat(engine): implement game loop scheduler
+[2025-10-07 02:32:52] feat(game): add multiplayer support
