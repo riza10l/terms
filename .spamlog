@@ -166,3 +166,4 @@
 [2025-10-09 03:24:47] chore: clean up dead code
 [2025-10-10 02:40:52] feat(shell): add command history
 [2025-10-10 02:55:51] docs: update README with examples
+[2025-10-11 03:32:37] docs: add theme creation guide
