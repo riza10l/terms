@@ -171,3 +171,4 @@
 [2025-10-12 09:37:40] fix(shell): resolve prompt corruption
 [2025-10-13 09:46:04] docs: add setup guide
 [2025-10-13 13:50:24] fix(commands): fix argument parsing
+[2025-10-13 02:13:23] style: sort imports
