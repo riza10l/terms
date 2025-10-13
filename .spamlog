@@ -174,3 +174,4 @@
 [2025-10-13 02:13:23] style: sort imports
 [2025-10-14 10:29:33] style: fix eslint warnings
 [2025-10-14 05:10:01] feat(config): add schema validation
+[2025-10-14 04:04:31] feat(theme): add dracula theme
