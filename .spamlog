@@ -176,3 +176,4 @@
 [2025-10-14 05:10:01] feat(config): add schema validation
 [2025-10-14 04:04:31] feat(theme): add dracula theme
 [2025-10-15 07:40:15] feat(commands): implement plugin system
+[2025-10-15 04:41:54] docs: add architecture overview
