@@ -172,3 +172,4 @@
 [2025-10-13 09:46:04] docs: add setup guide
 [2025-10-13 13:50:24] fix(commands): fix argument parsing
 [2025-10-13 02:13:23] style: sort imports
+[2025-10-14 10:29:33] style: fix eslint warnings
