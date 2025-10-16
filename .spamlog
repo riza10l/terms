@@ -179,3 +179,4 @@
 [2025-10-15 04:41:54] docs: add architecture overview
 [2025-10-16 04:15:31] refactor(renderer): optimize paint calls
 [2025-10-16 05:22:03] feat(shell): add command history
+[2025-10-16 08:33:20] feat(ui): add notification toasts
