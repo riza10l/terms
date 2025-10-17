@@ -182,3 +182,4 @@
 [2025-10-16 08:33:20] feat(ui): add notification toasts
 [2025-10-17 06:38:28] feat(theme): implement theme switcher
 [2025-10-18 05:47:57] feat(shell): implement tab completion
+[2025-10-18 01:05:49] feat(renderer): implement double buffering
