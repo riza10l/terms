@@ -183,3 +183,4 @@
 [2025-10-17 06:38:28] feat(theme): implement theme switcher
 [2025-10-18 05:47:57] feat(shell): implement tab completion
 [2025-10-18 01:05:49] feat(renderer): implement double buffering
+[2025-10-19 12:51:56] docs: update API documentation
