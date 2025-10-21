@@ -188,3 +188,4 @@
 [2025-10-20 01:25:07] feat(shell): add command history
 [2025-10-21 14:35:22] perf(core): debounce input handlers
 [2025-10-21 01:45:03] fix(engine): handle null state gracefully
+[2025-10-21 14:13:37] style: remove trailing whitespace
