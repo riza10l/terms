@@ -192,3 +192,4 @@
 [2025-10-22 11:51:16] fix(game): resolve collision detection
 [2025-10-22 10:37:43] docs: add architecture overview
 [2025-10-23 14:53:39] refactor(utils): reduce complexity
+[2025-10-24 09:15:30] fix(shell): resolve prompt corruption
