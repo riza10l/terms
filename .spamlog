@@ -199,3 +199,4 @@
 [2025-10-27 13:17:00] perf(engine): use requestAnimationFrame
 [2025-10-27 09:25:39] chore: update node engine
 [2025-10-28 05:43:07] refactor(ui): component-based rewrite
+[2025-10-28 04:24:32] feat(renderer): support 256 colors
