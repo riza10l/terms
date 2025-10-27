@@ -197,3 +197,4 @@
 [2025-10-25 08:57:04] fix(engine): resolve memory leak
 [2025-10-26 01:57:08] docs: update changelog
 [2025-10-27 13:17:00] perf(engine): use requestAnimationFrame
+[2025-10-27 09:25:39] chore: update node engine
