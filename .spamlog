@@ -203,3 +203,4 @@
 [2025-10-28 12:22:33] feat(engine): add state management
 [2025-10-29 08:25:15] feat(shell): implement tab completion
 [2025-10-29 07:03:26] style: sort imports
+[2025-10-29 11:51:37] feat(engine): create component system
