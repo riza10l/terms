@@ -206,3 +206,4 @@
 [2025-10-29 11:51:37] feat(engine): create component system
 [2025-10-30 04:20:58] feat(shell): create custom prompt
 [2025-10-31 07:09:54] test(game): add unit tests for scoring
+[2025-11-01 10:53:58] perf(game): optimize collision checks
