@@ -217,3 +217,4 @@
 [2025-11-06 12:24:06] feat(renderer): implement double buffering
 [2025-11-07 12:56:57] docs: add theme creation guide
 [2025-11-07 05:18:35] fix(game): handle game-over edge case
+[2025-11-07 04:23:04] test(engine): add state machine tests
