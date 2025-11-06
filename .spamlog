@@ -214,3 +214,4 @@
 [2025-11-04 06:55:58] perf(game): optimize collision checks
 [2025-11-05 02:18:41] style: fix eslint warnings
 [2025-11-05 12:03:36] feat(config): implement hot reload
+[2025-11-06 12:24:06] feat(renderer): implement double buffering
