@@ -215,3 +215,4 @@
 [2025-11-05 02:18:41] style: fix eslint warnings
 [2025-11-05 12:03:36] feat(config): implement hot reload
 [2025-11-06 12:24:06] feat(renderer): implement double buffering
+[2025-11-07 12:56:57] docs: add theme creation guide
