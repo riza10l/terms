@@ -223,3 +223,4 @@
 [2025-11-09 08:49:28] chore: clean up dead code
 [2025-11-10 13:43:19] feat(commands): implement plugin system
 [2025-11-11 02:17:23] feat(renderer): implement double buffering
+[2025-11-11 05:30:19] fix(config): resolve parse errors
