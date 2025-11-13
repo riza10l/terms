@@ -227,3 +227,4 @@
 [2025-11-12 12:10:24] feat(ui): create menu component
 [2025-11-13 02:48:19] feat(shell): add alias system
 [2025-11-14 03:41:52] chore: add CI workflow
+[2025-11-14 05:30:11] style: sort imports
