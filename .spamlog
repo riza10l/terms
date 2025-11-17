@@ -232,3 +232,4 @@
 [2025-11-15 04:02:31] feat(shell): add pipe support
 [2025-11-16 07:27:18] perf(core): optimize hot paths
 [2025-11-16 01:52:11] feat(ui): add notification toasts
+[2025-11-17 07:52:41] perf(renderer): cache computed styles
