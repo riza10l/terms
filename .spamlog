@@ -241,3 +241,4 @@
 [2025-11-21 12:06:43] feat(game): implement scoring system
 [2025-11-22 10:02:38] refactor(utils): reduce complexity
 [2025-11-22 08:54:06] feat(theme): implement theme switcher
+[2025-11-23 10:39:08] test(renderer): add snapshot tests
