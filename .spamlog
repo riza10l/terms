@@ -244,3 +244,4 @@
 [2025-11-23 10:39:08] test(renderer): add snapshot tests
 [2025-11-24 07:43:17] docs: update changelog
 [2025-11-25 07:40:33] feat(config): add schema validation
+[2025-11-25 02:04:06] test(shell): add parser tests
