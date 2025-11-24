@@ -242,3 +242,4 @@
 [2025-11-22 10:02:38] refactor(utils): reduce complexity
 [2025-11-22 08:54:06] feat(theme): implement theme switcher
 [2025-11-23 10:39:08] test(renderer): add snapshot tests
+[2025-11-24 07:43:17] docs: update changelog
