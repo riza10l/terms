@@ -246,3 +246,4 @@
 [2025-11-25 07:40:33] feat(config): add schema validation
 [2025-11-25 02:04:06] test(shell): add parser tests
 [2025-11-25 09:57:45] feat(engine): implement game loop scheduler
+[2025-11-26 06:46:30] fix(config): resolve parse errors
