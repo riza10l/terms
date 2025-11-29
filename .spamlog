@@ -251,3 +251,4 @@
 [2025-11-27 11:33:40] refactor(shell): clean up parser
 [2025-11-27 02:34:10] perf(core): optimize hot paths
 [2025-11-28 02:42:54] docs: document game API
+[2025-11-29 07:01:47] refactor(game): modularize game logic
