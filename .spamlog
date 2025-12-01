@@ -255,3 +255,4 @@
 [2025-11-29 08:38:39] fix(game): fix input buffer overflow
 [2025-11-30 11:31:05] feat(engine): create component system
 [2025-12-01 07:08:06] refactor(game): modularize game logic
+[2025-12-01 11:40:33] feat(config): add schema validation
