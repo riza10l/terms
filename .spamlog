@@ -258,3 +258,4 @@
 [2025-12-01 11:40:33] feat(config): add schema validation
 [2025-12-01 01:32:52] refactor(engine): split into modules
 [2025-12-02 10:26:49] feat(ui): add progress bar widget
+[2025-12-02 01:54:40] fix(game): handle game-over edge case
