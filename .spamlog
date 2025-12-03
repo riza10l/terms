@@ -261,3 +261,4 @@
 [2025-12-02 01:54:40] fix(game): handle game-over edge case
 [2025-12-02 03:14:26] refactor(theme): deduplicate styles
 [2025-12-03 14:27:49] test(shell): add parser tests
+[2025-12-03 08:00:39] feat(game): implement scoring system
