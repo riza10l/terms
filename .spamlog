@@ -273,3 +273,4 @@
 [2025-12-10 09:38:08] test(shell): add parser tests
 [2025-12-10 04:14:48] docs: update README with examples
 [2025-12-10 14:09:21] refactor(ui): component-based rewrite
+[2025-12-11 08:35:25] feat(game): add multiplayer support
