@@ -278,3 +278,4 @@
 [2025-12-12 04:15:49] feat(config): add schema validation
 [2025-12-12 04:08:21] chore: update node engine
 [2025-12-13 01:27:27] style: add missing semicolons
+[2025-12-13 08:21:31] fix(config): handle missing defaults
