@@ -280,3 +280,4 @@
 [2025-12-13 01:27:27] style: add missing semicolons
 [2025-12-13 08:21:31] fix(config): handle missing defaults
 [2025-12-13 02:17:54] perf(shell): lazy-load completions
+[2025-12-14 09:46:34] perf(core): optimize hot paths
