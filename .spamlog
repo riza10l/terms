@@ -284,3 +284,4 @@
 [2025-12-14 06:41:10] style: format with prettier
 [2025-12-15 02:02:02] feat(renderer): add unicode rendering
 [2025-12-16 03:50:22] feat(ui): implement dialog system
+[2025-12-16 07:11:32] feat(commands): add new CLI commands
