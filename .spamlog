@@ -285,3 +285,4 @@
 [2025-12-15 02:02:02] feat(renderer): add unicode rendering
 [2025-12-16 03:50:22] feat(ui): implement dialog system
 [2025-12-16 07:11:32] feat(commands): add new CLI commands
+[2025-12-17 04:42:56] fix(game): correct boundary checking
