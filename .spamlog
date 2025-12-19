@@ -290,3 +290,4 @@
 [2025-12-18 04:32:18] perf(core): debounce input handlers
 [2025-12-19 04:57:11] feat(engine): add state management
 [2025-12-19 12:35:27] perf(renderer): batch draw operations
+[2025-12-20 01:57:23] feat(config): implement hot reload
