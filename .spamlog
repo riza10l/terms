@@ -293,3 +293,4 @@
 [2025-12-20 01:57:23] feat(config): implement hot reload
 [2025-12-21 14:58:13] fix(shell): resolve prompt corruption
 [2025-12-22 02:24:11] refactor(engine): extract helper utils
+[2025-12-22 08:04:30] feat(ui): implement dialog system
