@@ -294,3 +294,4 @@
 [2025-12-21 14:58:13] fix(shell): resolve prompt corruption
 [2025-12-22 02:24:11] refactor(engine): extract helper utils
 [2025-12-22 08:04:30] feat(ui): implement dialog system
+[2025-12-23 09:55:48] feat(renderer): add unicode rendering
