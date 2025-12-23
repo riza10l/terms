@@ -296,3 +296,4 @@
 [2025-12-22 08:04:30] feat(ui): implement dialog system
 [2025-12-23 09:55:48] feat(renderer): add unicode rendering
 [2025-12-24 03:25:50] feat(renderer): support 256 colors
+[2025-12-24 02:11:42] feat(config): add JSON config loader
