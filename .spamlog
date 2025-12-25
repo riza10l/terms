@@ -301,3 +301,4 @@
 [2025-12-25 04:50:37] feat(shell): add pipe support
 [2025-12-25 05:56:08] fix(theme): correct color mapping
 [2025-12-26 06:32:55] feat(ui): implement dialog system
+[2025-12-26 04:38:21] feat(engine): implement game loop scheduler
