@@ -303,3 +303,4 @@
 [2025-12-26 06:32:55] feat(ui): implement dialog system
 [2025-12-26 04:38:21] feat(engine): implement game loop scheduler
 [2025-12-27 13:43:11] test(game): add unit tests for scoring
+[2025-12-27 05:20:50] chore: add git hooks
