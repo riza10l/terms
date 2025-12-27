@@ -306,3 +306,4 @@
 [2025-12-27 05:20:50] chore: add git hooks
 [2025-12-28 05:29:25] test(ui): add component tests
 [2025-12-28 09:40:36] refactor(renderer): optimize paint calls
+[2025-12-28 05:55:50] feat(game): add multiplayer support
