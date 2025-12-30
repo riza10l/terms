@@ -308,3 +308,4 @@
 [2025-12-28 09:40:36] refactor(renderer): optimize paint calls
 [2025-12-28 05:55:50] feat(game): add multiplayer support
 [2025-12-29 14:10:45] feat(shell): create custom prompt
+[2025-12-30 13:17:04] refactor(game): modularize game logic
