@@ -311,3 +311,4 @@
 [2025-12-30 13:17:04] refactor(game): modularize game logic
 [2025-12-30 14:05:31] docs: add architecture overview
 [2025-12-31 09:32:17] refactor(config): use schema pattern
+[2026-01-01 13:37:34] refactor(renderer): simplify draw loop
