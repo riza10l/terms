@@ -314,3 +314,4 @@
 [2026-01-01 13:37:34] refactor(renderer): simplify draw loop
 [2026-01-01 12:16:43] chore: update node engine
 [2026-01-01 10:45:26] fix(engine): handle null state gracefully
+[2026-01-02 09:06:35] chore: add git hooks
