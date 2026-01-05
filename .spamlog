@@ -318,3 +318,4 @@
 [2026-01-03 01:54:44] test(ui): add component tests
 [2026-01-04 02:47:02] feat(config): add JSON config loader
 [2026-01-04 11:14:14] style: enforce consistent naming
+[2026-01-05 09:55:12] chore: add git hooks
