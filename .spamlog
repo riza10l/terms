@@ -328,3 +328,4 @@
 [2026-01-10 10:29:41] feat(shell): implement tab completion
 [2026-01-10 04:33:40] docs: add architecture overview
 [2026-01-10 06:25:10] refactor(config): use schema pattern
+[2026-01-11 08:06:23] fix(game): correct boundary checking
