@@ -331,3 +331,4 @@
 [2026-01-11 08:06:23] fix(game): correct boundary checking
 [2026-01-11 13:51:25] fix(game): fix input buffer overflow
 [2026-01-12 05:39:46] perf(game): optimize collision checks
+[2026-01-13 06:14:53] fix(engine): correct timer precision
