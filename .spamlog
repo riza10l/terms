@@ -334,3 +334,4 @@
 [2026-01-13 06:14:53] fix(engine): correct timer precision
 [2026-01-13 12:37:52] feat(config): add JSON config loader
 [2026-01-13 01:29:10] docs: add setup guide
+[2026-01-14 05:14:31] docs: update API documentation
