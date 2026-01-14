@@ -335,3 +335,4 @@
 [2026-01-13 12:37:52] feat(config): add JSON config loader
 [2026-01-13 01:29:10] docs: add setup guide
 [2026-01-14 05:14:31] docs: update API documentation
+[2026-01-15 01:54:36] fix(game): handle game-over edge case
