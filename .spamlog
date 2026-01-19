@@ -345,3 +345,4 @@
 [2026-01-18 02:32:01] feat(config): add schema validation
 [2026-01-18 10:55:42] docs: add architecture overview
 [2026-01-19 04:37:02] feat(shell): add alias system
+[2026-01-19 08:23:27] chore: clean up dead code
