@@ -347,3 +347,4 @@
 [2026-01-19 04:37:02] feat(shell): add alias system
 [2026-01-19 08:23:27] chore: clean up dead code
 [2026-01-20 12:06:03] perf(engine): reduce render calls
+[2026-01-21 12:59:01] perf(renderer): batch draw operations
