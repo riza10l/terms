@@ -350,3 +350,4 @@
 [2026-01-21 12:59:01] perf(renderer): batch draw operations
 [2026-01-21 13:33:51] feat(renderer): add box-drawing support
 [2026-01-21 08:09:33] fix(renderer): fix color bleeding
+[2026-01-22 05:03:00] fix(shell): resolve prompt corruption
