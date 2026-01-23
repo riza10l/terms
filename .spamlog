@@ -352,3 +352,4 @@
 [2026-01-21 08:09:33] fix(renderer): fix color bleeding
 [2026-01-22 05:03:00] fix(shell): resolve prompt corruption
 [2026-01-23 08:20:29] feat(commands): add new CLI commands
+[2026-01-23 09:56:29] fix(game): fix input buffer overflow
