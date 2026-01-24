@@ -356,3 +356,4 @@
 [2026-01-23 03:55:09] refactor(ui): component-based rewrite
 [2026-01-24 05:43:36] feat(engine): create component system
 [2026-01-25 11:35:09] chore: update dependencies
+[2026-01-25 06:01:50] feat(shell): implement tab completion
