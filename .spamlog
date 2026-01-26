@@ -359,3 +359,4 @@
 [2026-01-25 06:01:50] feat(shell): implement tab completion
 [2026-01-26 12:47:34] feat(renderer): add unicode rendering
 [2026-01-27 02:50:24] test(theme): add regression tests
+[2026-01-27 01:16:56] feat(theme): add custom CSS support
