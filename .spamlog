@@ -363,3 +363,4 @@
 [2026-01-27 13:22:50] feat(game): create new puzzle level
 [2026-01-28 14:26:05] feat(theme): add nord color scheme
 [2026-01-29 05:45:07] chore: add CI workflow
+[2026-01-30 04:59:17] refactor(engine): split into modules
