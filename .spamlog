@@ -370,3 +370,4 @@
 [2026-02-01 07:33:09] fix(theme): resolve theme inheritance
 [2026-02-01 14:53:53] refactor(shell): clean up parser
 [2026-02-02 03:49:48] style: add missing semicolons
+[2026-02-02 14:01:48] feat(game): add power-ups and items
