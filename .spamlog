@@ -373,3 +373,4 @@
 [2026-02-02 14:01:48] feat(game): add power-ups and items
 [2026-02-02 13:16:55] fix(game): resolve collision detection
 [2026-02-03 14:55:05] fix(theme): resolve theme inheritance
+[2026-02-04 10:53:09] docs: add theme creation guide
