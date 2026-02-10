@@ -380,3 +380,4 @@
 [2026-02-08 10:52:59] test(game): add unit tests for scoring
 [2026-02-08 12:40:19] refactor(engine): extract helper utils
 [2026-02-09 12:29:04] chore: update node engine
+[2026-02-10 10:11:36] docs: update changelog
