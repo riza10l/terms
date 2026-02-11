@@ -383,3 +383,4 @@
 [2026-02-10 10:11:36] docs: update changelog
 [2026-02-11 03:56:29] refactor(ui): component-based rewrite
 [2026-02-11 14:34:11] fix(engine): correct timer precision
+[2026-02-11 13:52:23] feat(ui): add notification toasts
