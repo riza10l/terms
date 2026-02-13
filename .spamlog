@@ -386,3 +386,4 @@
 [2026-02-11 13:52:23] feat(ui): add notification toasts
 [2026-02-12 04:03:55] feat(ui): add progress bar widget
 [2026-02-13 10:48:14] feat(config): add JSON config loader
+[2026-02-14 05:22:18] refactor(game): modularize game logic
