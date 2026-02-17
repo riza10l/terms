@@ -392,3 +392,4 @@
 [2026-02-16 06:37:06] feat(game): create new puzzle level
 [2026-02-16 01:53:04] fix(shell): resolve prompt corruption
 [2026-02-17 14:51:01] style: add missing semicolons
+[2026-02-17 12:37:34] refactor(renderer): simplify draw loop
