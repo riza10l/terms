@@ -395,3 +395,4 @@
 [2026-02-17 12:37:34] refactor(renderer): simplify draw loop
 [2026-02-18 09:06:11] refactor(core): improve code structure
 [2026-02-19 11:51:26] chore: add CI workflow
+[2026-02-19 05:51:03] test(config): add validation tests
