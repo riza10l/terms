@@ -397,3 +397,4 @@
 [2026-02-19 11:51:26] chore: add CI workflow
 [2026-02-19 05:51:03] test(config): add validation tests
 [2026-02-19 05:20:20] chore: clean up dead code
+[2026-02-20 06:09:33] fix(config): handle missing defaults
