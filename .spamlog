@@ -401,3 +401,4 @@
 [2026-02-21 05:50:21] fix(renderer): resolve flickering issue
 [2026-02-21 06:43:00] refactor(game): modularize game logic
 [2026-02-22 03:43:00] refactor(config): use schema pattern
+[2026-02-22 04:47:18] fix(game): fix input buffer overflow
