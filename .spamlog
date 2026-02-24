@@ -404,3 +404,4 @@
 [2026-02-22 04:47:18] fix(game): fix input buffer overflow
 [2026-02-23 04:06:05] docs: add architecture overview
 [2026-02-23 09:22:10] feat(commands): implement plugin system
+[2026-02-24 13:00:11] refactor(core): improve code structure
