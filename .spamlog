@@ -411,3 +411,4 @@
 [2026-02-27 14:03:04] feat(theme): add custom CSS support
 [2026-02-28 07:47:30] feat(engine): implement game loop scheduler
 [2026-02-28 08:31:46] style: add missing semicolons
+[2026-03-01 10:09:22] docs: add setup guide
