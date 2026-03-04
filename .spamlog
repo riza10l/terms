@@ -415,3 +415,4 @@
 [2026-03-02 02:00:53] docs: update API documentation
 [2026-03-03 08:22:50] test(shell): add parser tests
 [2026-03-03 10:53:55] test(renderer): add snapshot tests
+[2026-03-04 08:29:39] test(engine): add state machine tests
