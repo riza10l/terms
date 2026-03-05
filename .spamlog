@@ -420,3 +420,4 @@
 [2026-03-05 05:58:36] fix(game): handle game-over edge case
 [2026-03-05 03:32:39] feat(shell): implement tab completion
 [2026-03-06 04:48:06] style: sort imports
+[2026-03-06 04:34:56] docs: update README with examples
