@@ -429,3 +429,4 @@
 [2026-03-08 01:15:38] fix(theme): correct color mapping
 [2026-03-09 06:13:34] feat(ui): add notification toasts
 [2026-03-09 10:27:45] chore: clean up dead code
+[2026-03-10 07:29:29] refactor(ui): component-based rewrite
