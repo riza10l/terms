@@ -432,3 +432,4 @@
 [2026-03-10 07:29:29] refactor(ui): component-based rewrite
 [2026-03-11 08:57:59] feat(engine): implement game loop scheduler
 [2026-03-11 07:48:03] perf(renderer): cache computed styles
+[2026-03-12 03:41:37] style: add missing semicolons
