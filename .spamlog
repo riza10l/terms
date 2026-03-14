@@ -436,3 +436,4 @@
 [2026-03-13 10:28:27] feat(game): add new terminal game mode
 [2026-03-13 04:42:48] feat(engine): add state management
 [2026-03-13 14:57:49] fix(game): correct boundary checking
+[2026-03-14 07:29:11] test(renderer): add snapshot tests
