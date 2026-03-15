@@ -439,3 +439,4 @@
 [2026-03-14 07:29:11] test(renderer): add snapshot tests
 [2026-03-14 06:43:34] perf(core): debounce input handlers
 [2026-03-14 13:59:16] feat(commands): add new CLI commands
+[2026-03-15 08:15:04] feat(theme): implement theme switcher
