@@ -443,3 +443,4 @@
 [2026-03-16 14:36:54] test(renderer): add snapshot tests
 [2026-03-16 09:27:04] feat(game): create new puzzle level
 [2026-03-16 11:00:44] feat(shell): add pipe support
+[2026-03-17 08:42:48] feat(game): add multiplayer support
