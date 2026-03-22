@@ -452,3 +452,4 @@
 [2026-03-20 07:37:43] feat(theme): add nord color scheme
 [2026-03-20 08:39:00] fix(ui): fix layout recalculation
 [2026-03-21 11:52:08] docs: add theme creation guide
+[2026-03-22 10:16:53] feat(engine): add state management
