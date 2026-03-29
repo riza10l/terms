@@ -467,3 +467,4 @@
 [2026-03-29 11:25:25] refactor(shell): clean up parser
 [2026-03-29 01:53:23] test(core): improve coverage
 [2026-03-30 01:28:06] test(shell): add parser tests
+[2026-03-30 03:58:51] fix(engine): handle null state gracefully
