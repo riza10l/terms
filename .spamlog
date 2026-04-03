@@ -472,3 +472,4 @@
 [2026-04-01 11:38:39] fix(engine): fix race condition
 [2026-04-02 07:19:17] refactor(core): improve code structure
 [2026-04-02 08:07:31] test(shell): add parser tests
+[2026-04-03 14:19:13] perf(engine): use requestAnimationFrame
