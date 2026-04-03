@@ -474,3 +474,4 @@
 [2026-04-02 08:07:31] test(shell): add parser tests
 [2026-04-03 14:19:13] perf(engine): use requestAnimationFrame
 [2026-04-04 11:09:59] feat(renderer): add unicode rendering
+[2026-04-04 01:53:28] chore: reorganize file structure
