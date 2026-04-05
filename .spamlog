@@ -477,3 +477,4 @@
 [2026-04-04 01:53:28] chore: reorganize file structure
 [2026-04-04 08:47:10] feat(shell): implement tab completion
 [2026-04-05 02:17:35] test(core): improve coverage
+[2026-04-05 12:46:27] fix(engine): resolve memory leak
