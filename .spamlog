@@ -486,3 +486,4 @@
 [2026-04-09 13:20:41] feat(game): implement scoring system
 [2026-04-10 14:00:33] feat(renderer): add box-drawing support
 [2026-04-10 11:11:47] test(ui): add component tests
+[2026-04-10 10:10:02] feat(game): add new terminal game mode
