@@ -487,3 +487,4 @@
 [2026-04-10 14:00:33] feat(renderer): add box-drawing support
 [2026-04-10 11:11:47] test(ui): add component tests
 [2026-04-10 10:10:02] feat(game): add new terminal game mode
+[2026-04-11 14:07:47] test(shell): add parser tests
