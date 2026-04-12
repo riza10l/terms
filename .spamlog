@@ -489,3 +489,4 @@
 [2026-04-10 10:10:02] feat(game): add new terminal game mode
 [2026-04-11 14:07:47] test(shell): add parser tests
 [2026-04-11 09:45:32] feat(shell): add pipe support
+[2026-04-12 09:50:57] fix(config): handle missing defaults
