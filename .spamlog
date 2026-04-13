@@ -493,3 +493,4 @@
 [2026-04-12 07:47:53] docs: add architecture overview
 [2026-04-12 13:45:52] test(core): improve coverage
 [2026-04-13 05:26:30] feat(renderer): support 256 colors
+[2026-04-14 06:19:34] fix(theme): resolve theme inheritance
