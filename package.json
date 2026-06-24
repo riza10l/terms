@@ -1,0 +1,16 @@
+{
+  "name": "terms",
+  "version": "1.0.0",
+  "description": "Custom terminal with colorful output, theme, device info, task manager, and GitHub mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "enquirer": "^2.4.1",
+    "node-fetch": "^2.6.7",
+    "os-utils": "^0.0.14",
+    "terminal-kit": "^3.0.0"
+  }
+}

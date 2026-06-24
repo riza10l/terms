@@ -1,0 +1,13 @@
+{
+  "theme": "matrix",
+  "startup": "fetch",
+  "prompt": "[{device}]$",
+  "ascii": "anime",
+  "autocomplete": true,
+  "aliases": {},
+  "ai": {
+    "provider": "none",
+    "apiKey": null,
+    "model": "gpt-3.5-turbo"
+  }
+}
