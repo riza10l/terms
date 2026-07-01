@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "gameId": "shell-racer",
+      "username": "Player",
+      "score": 500,
+      "details": "",
+      "date": "2026-06-26T13:11:58.236Z"
+    },
+    {
+      "gameId": "json-escape",
+      "username": "Player",
+      "score": 200,
+      "details": "",
+      "date": "2026-06-26T13:11:58.237Z"
+    }
+  ],
+  "updatedAt": "2026-06-26T13:11:58.237Z"
+}

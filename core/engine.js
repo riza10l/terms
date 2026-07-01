@@ -1,10 +1,38 @@
 const term = require('terminal-kit').terminal;
+const chalk = require('chalk').default;
 
 const configLoader = require('../config/loader');
 const { getTheme, paint, listThemes, previewTheme } = require('../themes/engine');
 const { getSystemInfo, formatUptime } = require('../utils/helpers');
 const commands = require('../commands');
 const shell = require('../shell');
+const GameManager = require('../games/engine/GameManager');
+
+// ─── Game Manager Setup ───
+const gameManager = new GameManager();
+const oldGames = require('../commands/games');
+function registerOldGame(g) {
+  const id = g.aliases[0] || g.name.toLowerCase().replace(/\s+/g, '');
+  gameManager.register({
+    id,
+    name: g.name,
+    desc: g.desc || `Play ${g.name}`,
+    play: async (term, ctx) => g.exec(term, ctx)
+  });
+}
+oldGames.forEach(registerOldGame);
+gameManager.register({
+  id: 'json-escape',
+  name: 'JSON Escape Room',
+  desc: 'Perbaiki JSON rusak sebelum waktu habis',
+  play: async (term, ctx) => require('../games/json-escape').play(term, ctx)
+});
+gameManager.register({
+  id: 'shell-racer',
+  name: 'Shell Racer',
+  desc: 'Typing race command terminal',
+  play: async (term, ctx) => require('../games/shell-racer').play(term, ctx)
+});
 
 // Graceful exit on stdin close
 process.on('uncaughtException', (err) => {
@@ -87,6 +115,14 @@ const builtins = {
         ['2048',       'Play 2048 game'],
         ['pong',       'Play Pong game'],
         ['waifu',      'Show random waifu ASCII'],
+      ]},
+      { title: '🕹  GAME CENTER', cmds: [
+        ['game',       'Game Center (list/play/achievements/leaderboard)'],
+        ['game play json-escape', 'JSON Escape Room — fix broken JSON'],
+        ['game play shell-racer', 'Shell Racer — typing speed test'],
+        ['game achievements',     'View achievements'],
+        ['game leaderboard',      'View leaderboard'],
+        ['game profile',          'View player profile'],
       ]},
       { title: '🔧  DEV TOOLS', cmds: [
         ['compile',    'Compile & run source code'],
@@ -309,6 +345,29 @@ const builtins = {
     term(chalk.hex('#ff00ff')('(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\n\n'));
   },
 
+  game: async (ctx, args) => {
+    const p = ctx.paint;
+    if (!args || args === 'list' || args === 'menu') {
+      await gameManager.showMenu(term, ctx);
+    } else if (args.startsWith('play ')) {
+      const gameId = args.slice(5).trim();
+      await gameManager.play(term, ctx, gameId);
+    } else if (args === 'achievements' || args === 'ach') {
+      await gameManager.showAchievements(term, ctx);
+    } else if (args === 'leaderboard' || args === 'lb') {
+      await gameManager.showLeaderboard(term, ctx);
+    } else if (args === 'profile') {
+      await gameManager.showProfile(term, ctx);
+    } else {
+      p.error(`Unknown game subcommand: ${args}\n`);
+      p.info('Usage: game list|play <name>|achievements|leaderboard|profile\n\n');
+    }
+  },
+
+  games: async (ctx, args) => {
+    await builtins.game(ctx, args);
+  },
+
   catverse: async (ctx) => {
     const p = ctx.paint;
     const cats = [
@@ -387,46 +446,103 @@ const descriptions = {
   'sudo-supreme': 'Execute commands as SUPREME',
   selfdestruct: 'Self-destruct sequence',
   catverse: '🌈 Infinite cats!',
+  game: 'Game Center — play, achievements, leaderboard, profile',
+  games: 'Alias for game command',
 };
+
+// ─── Prompt helpers ───
+function shortCwd() {
+  let cwd = process.cwd();
+  const home = require('os').homedir();
+  if (cwd.toLowerCase().startsWith(home.toLowerCase())) {
+    cwd = '~' + cwd.slice(home.length);
+  }
+  cwd = cwd.replace(/\\/g, '/');
+  const parts = cwd.split('/').filter(Boolean);
+  // Keep the leading marker (~ or drive) plus the last 2 segments.
+  if (parts.length > 3) {
+    const head = cwd.startsWith('~') ? '~' : parts[0];
+    return `${head}/…/${parts.slice(-2).join('/')}`;
+  }
+  return cwd;
+}
+
+let _gitCache = { dir: null, branch: null, at: 0 };
+function gitBranch() {
+  const cwd = process.cwd();
+  // Cache per directory for 2s so we don't shell out every prompt.
+  if (_gitCache.dir === cwd && Date.now() - _gitCache.at < 2000) return _gitCache.branch;
+  let branch = null;
+  try {
+    branch = require('child_process')
+      .execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], timeout: 800 })
+      .trim();
+    if (!branch || branch === 'HEAD') branch = null;
+  } catch { branch = null; }
+  _gitCache = { dir: cwd, branch, at: Date.now() };
+  return branch;
+}
+
+function renderPrompt(theme, lastOk) {
+  const c = (hex) => chalk.hex(hex);
+  const info = getSystemInfo();
+  const accent = theme.accent || '#ff79c6';
+  const infoCol = theme.info || '#8be9fd';
+  const success = theme.success || '#50fa7b';
+  const warning = theme.warning || '#e0af68';
+  const error = theme.error || '#f7768e';
+  const dim = c(theme.secondary || '#a9b1d6').dim;
+
+  const userHost = `${c(accent).bold(info.user)}${dim('@')}${c(infoCol)('TERMS')}`;
+  const path = c(warning)(shortCwd());
+  const branch = gitBranch();
+  const gitSeg = branch ? `  ${dim('on')} ${c(success)(' ' + branch)}` : '';
+  const time = dim(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
+
+  // Top line: ╭─ user@TERMS  path  on  branch          HH:MM
+  term(`${c(theme.primary)('╭─')} ${userHost}  ${path}${gitSeg}  ${time}\n`);
+  // Bottom line: ╰─❯  (arrow green on success, red on failure)
+  const arrow = lastOk ? c(success).bold('❯') : c(error).bold('❯');
+  term(`${c(theme.primary)('╰─')}${arrow} `);
+}
 
 // ─── Main loop ───
 async function main() {
   const cfg = configLoader.load();
   let ctx = createContext(cfg.theme);
-  const chalk = require('chalk').default;
 
-  // Custom Boot Sequence
+  // Custom Boot Sequence (systemd-style)
+  const ok = chalk.hex(ctx.theme.success).bold;
+  const dimc = chalk.hex(ctx.theme.secondary).dim;
   const BOOT_STEPS = [
-    'Loading TERMS Core',
-    'Starting Dashboard',
-    'Loading Plugins',
-    'Initializing Shell',
-    'Loading Theme Engine',
-    'Starting AI Module'
+    'Reached target TERMS Core',
+    'Started Theme Engine',
+    'Started Command Registry',
+    'Started Plugin Manager',
+    'Started Game Center',
+    'Started Interactive Shell',
+    'Reached target Multi-User System',
   ];
 
+  term.clear();
+  term('\n');
+  term(dimc(`  TERMS v2.0  ·  booting on ${require('os').hostname()}\n\n`));
   for (const step of BOOT_STEPS) {
-    term(chalk.hex(ctx.theme.success)('[ OK ] '));
-    term(step + '\n');
-    await new Promise(r => setTimeout(r, 150));
+    term(`  ${dimc('[')}${ok('  OK  ')}${dimc(']')} ${step}\n`);
+    await new Promise(r => setTimeout(r, 110));
   }
 
-  await new Promise(r => setTimeout(r, 500));
+  await new Promise(r => setTimeout(r, 350));
 
   // Load new dashboard
   const { renderDashboard } = require('../utils/dashboard');
   renderDashboard(term, ctx);
 
+  let lastOk = true;
   while (true) {
     try {
-      const chalk = require('chalk').default;
-      const info = getSystemInfo();
-      const userStr = chalk.hex(ctx.theme.accent || '#ff79c6')(info.user);
-      const hostStr = chalk.hex(ctx.theme.info || '#8be9fd')(info.hostname);
-      const pathStr = chalk.hex(ctx.theme.success || '#50fa7b')('~');
-
-      // Render Linux-style prompt: user@hostname:~$
-      term(`${userStr}@${hostStr}:${pathStr}$ `);
+      // Render modern two-line Linux-style prompt
+      renderPrompt(ctx.theme, lastOk);
 
       const input = await new Promise(resolve => {
         term.inputField({ cancelable: true }, (err, input) => {
@@ -438,6 +554,7 @@ async function main() {
       term('\n');
 
       if (!input.trim()) continue;
+      lastOk = true;
 
       // Parse command and args
       const spaceIdx = input.indexOf(' ');
@@ -511,6 +628,7 @@ async function main() {
         process.exit(0);
       }
       if (err.code === 'ERR_USE_AFTER_CLOSE') process.exit(0);
+      lastOk = false;
       ctx.paint.error(`\nError: ${err.message}\n\n`);
     }
   }
